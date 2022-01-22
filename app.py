@@ -154,7 +154,7 @@ class MyBot():
             if len(self.positions) > 0:
                 for position in self.positions:
                     self.loopSwapPage(position)
-                    # self.loopRefreshStamina(position)
+                    self.loopRefreshStamina(position)
             print('sleep 10 second')
             time.sleep(10)
 
