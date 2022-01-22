@@ -1,0 +1,4 @@
+pillow
+numpy
+pywin32
+requests
