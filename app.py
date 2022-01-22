@@ -90,8 +90,9 @@ class MyBot():
                 time.time() * 1000)
             print("Screen "+str(position["index"]+1)+", Loop Swap Page Start")
             self.mouseClick(position["posWallet"])
-            self.capture_screen()
             time.sleep(3)
+            self.capture_screen()
+            time.sleep(1)
             self.linenotify("Screen "+str(position["index"]+1) +
                             ", Loop swap page Working")
             time.sleep(1)
@@ -115,8 +116,9 @@ class MyBot():
             self.mouseClick(position["posReset"])
             logging.info("Select Button Reset")
             self.mouseClick(position["posAll"])
-            self.capture_screen()
             time.sleep(3)
+            self.capture_screen()
+            time.sleep(1)
             self.linenotify("Screen "+str(position["index"]+1) +
                             ", Loop refresh stamina working")
             logging.info("Select Button All")
@@ -152,7 +154,7 @@ class MyBot():
             if len(self.positions) > 0:
                 for position in self.positions:
                     self.loopSwapPage(position)
-                    self.loopRefreshStamina(position)
+                    # self.loopRefreshStamina(position)
             print('sleep 10 second')
             time.sleep(10)
 
