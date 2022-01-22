@@ -15,7 +15,7 @@
 [LINK DOWNLOAD](https://code.visualstudio.com/)
 
 ## Step 3 Download source code
-[LINK DOWNLOAD](https://github.com/jamesncm123/bot-bombcrypto.git)
+[LINK DOWNLOAD](https://github.com/jamesncm123/bot-bombcrypto-multi-account)
 
 ## Step 4 Open source code with Visual Studio Code (Optional)
 
@@ -81,11 +81,10 @@ Note: Position name reference from file in folder img
 python app.py
 ```
 
-## Example Video Demo 1
-#### Youtube: [youtube](https://www.youtube.com/watch?v=7eKcKnWcb5g)
 
-## Example Video Demo 2 + line notify
-#### Youtube: [youtube](https://youtu.be/-SBX9e3O_0Q)
+## Example Video Demo + line notify -- multi-account
+#### Youtube: [youtube](https://youtu.be/qK6Pudcf-OM)
+
 
 ## Contact us at
 #### Facebook: [https://www.facebook.com/james.ndc](https://www.facebook.com/james.ndc)
