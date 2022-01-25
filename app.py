@@ -110,6 +110,7 @@ class MyBot():
             print("Loop Refresh Stamina Start")
             self.mouseClick(position["posPauseAndSelectHeroes"])
             logging.info("Select Button Pause Game")
+            time.sleep(1)
             self.mouseClick(position["posPauseAndSelectHeroes"])
             logging.info("Select Button Heroes")
             time.sleep(3)
@@ -148,6 +149,13 @@ class MyBot():
         # if self.isConnect == 1:
         #     self.startGame()
         # else:
+        print('3')
+        time.sleep(1)
+        print('2')
+        time.sleep(1)
+        print('1')
+        time.sleep(1)
+        print('Start')
         self.start_time = int(time.time() * 1000)
         self.capture_screen()
         while True:
@@ -156,6 +164,7 @@ class MyBot():
                     self.loopSwapPage(position)
                     self.loopRefreshStamina(position)
             print('sleep 10 second')
+            print('exit = ctl + c')
             time.sleep(10)
 
 
